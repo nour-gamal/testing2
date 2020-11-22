@@ -18,16 +18,15 @@ class App extends Component {
 		const meetConfig = {
 			apiKey: "giZyUr5LTfK80Hvgp5-lUQ",
 			apiSecret: "DPoS8reAtICHuZOYIvfWGLGvObCDW8nhERW2",
-			meetingNumber: "7791696515",
-			//meetingNumber: "5260746839",
+			//meetingNumber: "7791696515",
+			meetingNumber: "81361773135",
 			leaveUrl: "https://maqraa.netlify.app/",
 			userName: "nourmoee",
 			userEmail: "nmg181963@hotmail.com",
-			passWord: "i79Q2f", // if required
-			//passWord: "m2EMU5", // if required
-			role: 0, //1 for host; 0 for attendee
-			//role: 1, //1 for host; 0 for attendee
-		
+			//passWord: "i79Q2f", // if required
+			passWord: "4J8gHx", // if required
+			//role: 0, //1 for host; 0 for attendee
+			role: 1, //1 for host; 0 for attendee
 		};
 		console.log("checkSystemRequirements");
 		console.log(JSON.stringify(ZoomMtg.checkSystemRequirements()));
